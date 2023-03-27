@@ -1,15 +1,15 @@
-orange: 
+orange:
   content: "I just ate an orange!"
   created_at: <%= 10.minutes.ago %>
   user: michael
 
 tau_manifesto:
-  content: "Check out the @tauday site by @mhartl: https://tauday.com"
+  content: "Check out the @tauday site by @mhartl: http://tauday.com"
   created_at: <%= 3.years.ago %>
-  user: michael 
+  user: michael
 
 cat_video:
-  content: "Sad cats are sad: https://youtu.be/PKffm2uI4dk"
+  content: "Sad cats are sad: http://youtu.be/PKffm2uI4dk"
   created_at: <%= 2.hours.ago %>
   user: michael
 
@@ -25,12 +25,12 @@ micropost_<%= n %>:
   user: michael
 <% end %>
 
-ants: 
+ants:
   content: "Oh, is that what you want? Because that's how you get ants!"
   created_at: <%= 2.years.ago %>
   user: archer
 
-zone: 
+zone:
   content: "Danger zone!"
   created_at: <%= 3.days.ago %>
   user: archer
@@ -40,7 +40,7 @@ tone:
   created_at: <%= 10.minutes.ago %>
   user: lana
 
-van: 
-  content: "Dude, this van's, like, rolling probable cause"
+van:
+  content: "Dude, this van's, like, rolling probable cause."
   created_at: <%= 4.hours.ago %>
   user: lana
